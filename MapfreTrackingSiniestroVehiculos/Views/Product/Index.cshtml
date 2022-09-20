@@ -1,0 +1,185 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/assets/dist/css/tracking.css" rel="stylesheet" />
+
+<script src="~/assets/dist/js/bootstrap.bundle.min.js"></script>
+<main>
+
+    <div class="position-relative overflow-hidden text-center bg-mapfre">
+        <div class="col-md-6 p-lg-5 mx-auto my-6">
+            <img src="~/assets/images/auto_grande_rojo.png" width="50%" />
+
+
+            <h1 class="text-light display-4 fw-normal">Tracking de Siniestro</h1>
+            <p class="text-light lead fw-normal">Revisa el estado de tu siniestro, contacto del taller, gestor y perito.</p>
+        </div>
+    </div>
+
+
+
+    <div class="container-lg">
+
+        <div class="row">
+
+            <div class="card mt-3 bg-opacity-50 bg-gris-1">
+
+                <div class="card-body">
+
+                    <div class="row align-items-end">
+
+                        <div class="col-md d-flex">
+                            <img class="align-self-center m-1" src="~/assets/images/icon_car_gris.PNG" width="20%" />
+                            <p class="fs-5 align-self-center text-mapfre fw-semibold">Daño parcial</p>
+                        </div>
+
+                        <div class="col-md d-flex">
+                            <img class="align-self-center m-1" src="~/assets/images/icon_exclamacion_gris.PNG" width="20%" />
+                            <p class="fs-5 align-self-center text-mapfre fw-semibold">Estado: en proceso</p>
+                        </div>
+
+                        <div class="col-md d-flex">
+                            <img class="align-self-center m-1" src="~/assets/images/icon_numero_gris.PNG" width="20%" />
+                            <p class="fs-5 align-self-center text-mapfre fw-semibold">Siniestro: 123135451321</p>
+                        </div>
+
+                        <div class="col-md d-flex">
+                            <img class="align-self-center m-1" src="~/assets/images/icon_peso_gris.PNG" width="20%" />
+                            <p class="fs-5 align-self-center text-mapfre fw-semibold">Deducible: 56.23 UF</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="card mt-3 mb-3 bg-opacity-50 bg-gris-1">
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="true" aria-controls="multiCollapseExample1">Toggle first element</a>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="true" aria-controls="multiCollapseExample2">Toggle second element</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="card card-body">
+                                Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="card mt-3 mb-3 bg-opacity-50 bg-gris-1">
+
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        Toggle width collapse
+                    </button>
+                </p>
+                <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                        <div class="card card-body" style="width: 300px;">
+                            This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="card mt-3 mb-3 bg-opacity-50 bg-gris-1">
+
+                <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading1">First</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                                <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+                    <h4 id="scrollspyHeading1">First heading</h4>
+                    <p>...</p>
+                    <h4 id="scrollspyHeading2">Second heading</h4>
+                    <p>...</p>
+                    <h4 id="scrollspyHeading3">Third heading</h4>
+                    <p>...</p>
+                    <h4 id="scrollspyHeading4">Fourth heading</h4>
+                    <p>...</p>
+                    <h4 id="scrollspyHeading5">Fifth heading</h4>
+                    <p>...</p>
+                </div>
+            </div>
+        </div>
+
+
+
+</main>
+
+
+<script>
+
+    const myCollapsible = document.getElementById('collapseWidthExample')
+
+    myCollapsible.addEventListener('hide.bs.collapse', event => {
+        // do something...
+        alert('hide.bs.collapse..')
+        myCollapsible
+    })
+    /*
+    myCollapsible.addEventListener('hidden.bs.collapse', event => {
+        // do something...
+        alert('hidden.bs.collapse..')
+    })
+
+    myCollapsible.addEventListener('show.bs.collapse', event => {
+        // do something...
+        alert('show.bs.collapse..')
+    })
+
+    myCollapsible.addEventListener('shown.bs.collapse', event => {
+        // do something...
+        alert('shown.bs.collapse..')
+    })
+    */
+
+</script>
