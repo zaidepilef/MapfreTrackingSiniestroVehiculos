@@ -39,3 +39,8 @@ hr.division-linea-tiempo {
     border-top: 1px solid;
 }
 
+.grid {
+    display: grid;
+    grid-template-rows: 100px 100px;
+
+}
