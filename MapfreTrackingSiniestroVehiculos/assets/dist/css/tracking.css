@@ -30,3 +30,12 @@
 .text-mapfre {
     color: #e1251b;
 }
+
+hr.division-linea-tiempo {
+    border: 1px;
+    height: 10px;
+    background: #333;
+    border: 12px solid;
+    border-top: 1px solid;
+}
+
