@@ -42,5 +42,36 @@ hr.division-linea-tiempo {
 .grid {
     display: grid;
     grid-template-rows: 100px 100px;
+}
 
+.linea-tiempo-gris {
+    width: 100%;
+    background: #dadada;
+    color: #dadada;
+    height: 12px;
+}
+
+
+.linea-tiempo-gris {
+    width: 100%;
+    background: #dadada;
+    color: #dadada;
+    height: 12px;
+}
+
+.caja-sin-fecha {
+    width: 100%;
+    background: #ffffff;
+}
+
+.caja-con-fecha {
+    width: 100%;
+    background: #ffffff;
+    color: #6c6b6b;
+    height: 110px;
+}
+
+.caja-autito {
+    width: 100%;
+    background: #ffffff;
 }
